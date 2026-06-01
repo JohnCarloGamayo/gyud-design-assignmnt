@@ -46,4 +46,3 @@ All technical documentation, including API contracts and UX decision reasoning, 
 - **Responsive Layout**: Designed for high-volume merchant workflows.
 
 ---
-Built by [User Name] as part of the Gyud Technologies Technical Assessment.
