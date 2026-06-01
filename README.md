@@ -37,7 +37,7 @@ The project follows a modular component architecture:
 - `/src/styles`: Global design tokens and resets.
 
 ## 📝 Deliverables
-All technical documentation, including API contracts and UX decision reasoning, can be found in the [deliverables.md](deliverables.md) file in the root directory.
+All technical documentation, including API contracts and UX decision reasoning, can be found in the deliverables.pdf i sent.
 
 ## ✨ Key Features
 - **Global Sync Status**: Real-time feedback on platform connectivity.
