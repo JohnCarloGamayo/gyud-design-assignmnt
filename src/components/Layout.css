@@ -1,0 +1,41 @@
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* ---- Main Content ---- */
+.main-content {
+  flex: 1;
+  margin-left: var(--sidebar-width);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  transition: margin-left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.sidebar-collapsed .main-content {
+  margin-left: 72px;
+}
+
+.content-area {
+  padding: 2rem;
+  flex: 1;
+}
+
+/* ---- Tablet (≤ 1024px) ---- */
+@media (max-width: 1024px) {
+  .main-content {
+    margin-left: 0 !important;
+  }
+
+  .content-area {
+    padding: 1.5rem;
+  }
+}
+
+/* ---- Mobile (≤ 768px) ---- */
+@media (max-width: 768px) {
+  .content-area {
+    padding: 1rem;
+  }
+}

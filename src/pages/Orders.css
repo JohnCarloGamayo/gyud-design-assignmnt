@@ -1,0 +1,118 @@
+
+.order-id {
+  font-weight: 600;
+  color: var(--primary);
+}
+
+.order-modal-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.om-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.om-status-badge {
+  display: inline-flex;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  width: fit-content;
+}
+
+.om-status-badge.delivered { background: var(--success-light); color: var(--success); }
+.om-status-badge.processing { background: var(--warning-light); color: var(--warning); }
+.om-status-badge.shipped { background: var(--info-light); color: var(--info); }
+
+.om-date {
+  font-size: 0.8125rem;
+  color: var(--text-secondary);
+}
+
+.om-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.om-customer, .om-shipping {
+  padding: 1rem;
+}
+
+.om-customer h5, .om-shipping h5, .om-items h5 {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+}
+
+.om-customer p, .om-shipping p {
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.om-items {
+  padding: 1rem;
+}
+
+.om-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.omi-details {
+  flex: 1;
+}
+
+.omi-details span {
+  font-size: 0.875rem;
+  font-weight: 600;
+  display: block;
+}
+
+.omi-details p {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+}
+
+.omi-price {
+  text-align: right;
+}
+
+.omi-price span {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  display: block;
+}
+
+.om-summary {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem;
+  background: var(--background);
+  border-radius: 8px;
+}
+
+.oms-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+}
+
+.oms-row.total {
+  margin-top: 5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--border);
+  font-weight: 700;
+  color: var(--text-primary);
+  font-size: 1.125rem;
+}
